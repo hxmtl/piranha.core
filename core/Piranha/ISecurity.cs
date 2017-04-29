@@ -27,20 +27,6 @@ namespace Piranha
         bool Authenticate(string username, string password);
 
         /// <summary>
-        /// Authenticates and signs in the user with the
-        /// given credentials.
-        /// </summary>
-        /// <param name="username">The username</param>
-        /// <param name="password">The password</param>
-        /// <returns>If the user was signed in</returns>
-        bool SignIn(string username, string password);
-
-        /// <summary>
-        /// Signs out the current user.
-        /// </summary>
-        void SignOut();
-
-        /// <summary>
         /// Checks if the current user has the given role.
         /// </summary>
         /// <param name="role">The role</param>
